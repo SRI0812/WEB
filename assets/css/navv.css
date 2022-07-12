@@ -1,0 +1,204 @@
+/* Add a black background color to the top navigation */
+
+
+
+
+
+
+.topnav {
+  background-color: hsla(0,0%,0%,0.5);
+  overflow: hidden;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.name {
+  
+   background: linear-gradient(to right, #8e6b1b,#f7EF8a,#AE8625 );
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+
+}
+
+.grid a
+{
+  color: white;
+ 
+}
+
+.grid a:hover {
+  color: goldenrod ;
+  
+}
+
+ 
+
+.grid img
+{
+  padding:10px;
+   
+}
+
+
+h6 {
+  margin: 3px 0;
+  text-transform: uppercase;
+ }
+  
+ p {
+  font-size: 20px;
+  line-height: 15px;
+ }
+  
+ .card-container {
+  
+  background-color: hsla(0,0%,0%,0.65);
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+  color: #B3B8CD;
+  padding: 30px 0 0;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+   
+  text-align: center;
+  margin: 20px 0;
+  overflow:hidden;
+ }
+  
+ .card-container .pro {
+  color: #231E39;
+  background-color: #FEBB0B;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+ }
+  
+ .card-container img {
+  border: 1px solid #FEBB0B;
+  /*#C400D7;*/
+  border-radius: 50%;
+  padding: 7px;
+  height: 150px;
+  width: 150px;
+ }
+
+ .skills {
+  background-color: hsla(0,0%,0%,0.55);
+
+  text-align: left;
+  padding:17px;
+  margin-top: 30px;
+ }
+  
+ .skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+  
+ .skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+   
+  font-size: 15px;
+  margin: 0 7px 7px 0;
+  padding: 18px;
+ }
+
+
+
+ #second 
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+
+.minion div
+{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.533);
+  border-top-left-radius: 46%;
+  border-top-right-radius: 46% 
+}
+
+.minimage div
+{
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+}
+
+.minimage img {
+  padding: 10px;
+  height: 150px;
+  width: 275px;
+ }
+
+
+ 
+ .minimage img:hover 
+ {
+  
+  background-color: rgba(255, 255, 255); 
+ 
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50% ;
+ }
+
+ .minimage label 
+ {
+  font-family:cursive;
+  font-size: 30px;
+  color: #FEBB0B;
+  /* background-color: rgba(0, 0, 0, 0.47);  */
+  padding-inline: 35px;
+  border-radius: 5px;
+ }
+
+ .minimage label:hover 
+ {
+  background-color: rgb(255, 255, 255); 
+ }
+
+ .footer 
+ {
+  background-color: hsla(0,0%,0%,0.55);
+ }
